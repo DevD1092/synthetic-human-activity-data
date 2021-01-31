@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python acgan.py --img_width 60 --img_height 25 --temporal_pattern interpolate --temporal_length 60 --channels 3 --num_per 1 --save_steps 500 --n_epochs 1000 --sample_interval 20000 --centering 0 --normalize 0 --expt img25_nocenter_nonorm_transform_per1 --batch_size 64 --transform 1
