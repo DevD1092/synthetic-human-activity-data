@@ -1,0 +1,21 @@
+Discrimintor not pretrained ; Generator not pretrained
+
+Discriminator generated images probs Mean tensor(0.5064, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(0.0030, device='cuda:0', grad_fn=<StdBackward0>)
+Discriminator generated images validity Mean tensor(0.0258, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(0.0120, device='cuda:0', grad_fn=<StdBackward0>)
+Discriminator Real images probs Mean tensor(0.4999, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(0.0040, device='cuda:0', grad_fn=<StdBackward0>)
+Discriminator Real images validity Mean tensor(-0.0003, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(0.0161, device='cuda:0', grad_fn=<StdBackward0>)
+
+
+Discriminator pretrained ; Generator not pretrained
+
+Discriminator generated images probs Mean tensor(0.3115, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(0.2806, device='cuda:0', grad_fn=<StdBackward0>)
+Discriminator generated images validity Mean tensor(-2.6338, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(4.3759, device='cuda:0', grad_fn=<StdBackward0>)
+Discriminator Real images probs Mean tensor(0.6438, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(0.0694, device='cuda:0', grad_fn=<StdBackward0>)
+Discriminator Real images validity Mean tensor(0.6047, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(0.3052, device='cuda:0', grad_fn=<StdBackward0>)
+
+Discriminator pretrained ; Generator pretrained
+
+Discriminator generated images probs Mean tensor(0.5080, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(0.0620, device='cuda:0', grad_fn=<StdBackward0>)
+Discriminator generated images validity Mean tensor(0.0321, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(0.2517, device='cuda:0', grad_fn=<StdBackward0>)
+Discriminator Real images probs Mean tensor(0.6361, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(0.0695, device='cuda:0', grad_fn=<StdBackward0>)
+Discriminator Real images validity Mean tensor(0.5714, device='cuda:0', grad_fn=<MeanBackward0>) STD: tensor(0.3089, device='cuda:0', grad_fn=<StdBackward0>)

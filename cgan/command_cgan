@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python cgan.py --img_width 60 --img_height 50 --channels 3 --temporal_length 60 --temporal_pattern interpolate --expt img25_center_nonorm_per2_ep5k --centering 1 --n_epochs 5000 --sample_interval 40000 --save_steps 500 --batch_size 64 --num_per 2 --transform 0
