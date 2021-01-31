@@ -1,0 +1,3 @@
+python hcn_train.py --gpu 1 --temporal_length 60 --temporal_pattern interpolate --arch hcn --centering 1 --expt test_mode --batch_size 32 --mode test --model_path /fast-stripe/workspaces/deval/synthetic-data/hcn/CCC_models/clall_len60_per1/model_state.pth --num_person 1
+
+python hcn_train.py --gpu 3 --temporal_length 25 --temporal_pattern interpolate --arch hcn --centering 1 --expt img25_real_cl26a42_data_center_ep400 --num_epochs 400 --batch_size 32
